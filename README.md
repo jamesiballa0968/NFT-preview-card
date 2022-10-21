@@ -16,3 +16,7 @@
 
 2. develop!_nft_2_Added-responsive-for-mobile and styling
 
+# HOT-FIX BRANCH
+
+1. hotfix!_nft_2.1_Rename-HTML-file
+
