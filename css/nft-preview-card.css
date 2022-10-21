@@ -8,14 +8,11 @@
 
 body {
   background: hsl(217deg, 54%, 11%);
-  background-image: url("../images/design/desktop-design.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 .main-ctn {
+  margin-top: 2em;
   text-align: center;
-  opacity: 0.7;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -27,10 +24,14 @@ html {
 }
 
 .attribution {
+  margin: 1em 0;
   font-family: "Outfit";
   color: white;
   font-size: 11px;
   text-align: center;
+}
+.attribution .--color-name {
+  color: hsl(215deg, 51%, 70%);
 }
 
 .attribution a {
@@ -39,28 +40,83 @@ html {
 }
 
 .card-ctn {
-  padding: 1.5em;
   width: 350px;
   margin: 0 auto;
+  border-radius: 10px;
   background: hsl(216deg, 50%, 16%);
 }
 .card-ctn__img {
-  height: 250px;
+  border-radius: 30px;
+  padding: 1.3em 1.3em 1em 1.3em;
   width: 100%;
 }
+.card-ctn__info-ctn {
+  padding: 0 1.5em;
+  text-align: left;
+}
+.card-ctn__info-ctn .--text {
+  font-family: "Outfit";
+  color: hsl(0deg, 0%, 100%);
+}
 .card-ctn__info-ctn__crypto-date-ctn {
+  margin: 1em 0;
   display: flex;
   gap: 1em;
   justify-content: space-between;
+  font-family: "Outfit";
+}
+.card-ctn__info-ctn__crypto-date-ctn__crypto-ctn, .card-ctn__info-ctn__crypto-date-ctn__date-ctn {
+  gap: 0.5em;
+  display: flex;
+  align-items: center;
+}
+.card-ctn__info-ctn__crypto-date-ctn__crypto-ctn .--text-eth, .card-ctn__info-ctn__crypto-date-ctn__date-ctn .--text-eth {
+  font-size: 1em;
+  color: hsl(178deg, 100%, 50%);
+  font-weight: 500;
+}
+.card-ctn__info-ctn__crypto-date-ctn__crypto-ctn .--text-days, .card-ctn__info-ctn__crypto-date-ctn__date-ctn .--text-days {
+  font-size: 0.95em;
+  color: hsl(215deg, 51%, 70%);
+}
+.card-ctn__info-ctn__desc-1 {
+  color: hsl(215deg, 51%, 70%);
+  font-family: "Outfit";
+  font-size: 1em;
+  font-weight: 100;
+  line-height: 1.5em;
+  margin-top: 1em;
+}
+.card-ctn__info-ctn .--misc-1 {
+  border-color: hsl(215deg, 32%, 27%);
+  border-top: 0px solid hsl(215deg, 32%, 27%);
+  margin-top: 1.3em;
+}
+.card-ctn__info-ctn__creator-ctn {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  gap: 1em;
+  justify-content: left;
+  margin: 1em 0 1.6em 0;
+}
+.card-ctn__info-ctn__creator-ctn .--size {
+  border-radius: 50%;
+  border: 1px solid white;
+  width: 35px;
+}
+.card-ctn__info-ctn__creator-ctn .--color-text {
+  font-family: "Outfit";
+  font-size: 0.85em;
+  color: hsl(215deg, 51%, 70%);
+}
+.card-ctn__info-ctn__creator-ctn .--color-text .--color {
+  color: white;
 }
 
 @media (max-width: 375px) {
-  .main-ctn {
-    margin: 2em auto;
-    height: 100%;
-  }
   .card-ctn {
-    margin: 1em;
+    margin: 0 auto;
     border-radius: 15px;
   }
   .card-ctn__img {
@@ -123,5 +179,9 @@ html {
   }
   .card-ctn__info-ctn__creator-ctn .--color-text .--color {
     color: white;
+  }
+  .attribution {
+    margin: 0 auto;
+    margin-top: 2em;
   }
 }/*# sourceMappingURL=nft-preview-card.css.map */
