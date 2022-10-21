@@ -59,7 +59,7 @@ html {
   color: hsl(0deg, 0%, 100%);
 }
 .card-ctn__info-ctn__crypto-date-ctn {
-  margin: 1em;
+  margin: 1em 0;
   display: flex;
   gap: 1em;
   justify-content: space-between;
