@@ -9,6 +9,8 @@
 
 2. release!_nft_2.0_Implement-responsive-desktop-mobile
 
+3. release!_nft_3.0_Fixed_website_github_page_load
+
 
 # DEVELOP BRANCH
 
