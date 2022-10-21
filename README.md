@@ -12,3 +12,5 @@
 
 1. develop!_nft_1_Added-more-html-structure
 
+2. develop!_nft_2_Added-responsive-for-mobile and styling
+

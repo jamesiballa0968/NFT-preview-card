@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/nft-preview-card.scss" />
+    <link rel="stylesheet" href="css/nft-preview-card.css" />
     <link
       rel="icon"
       type="image/png"
@@ -20,23 +20,18 @@
     <title>Frontend Mentor | NFT preview card component</title>
   </head>
   <body>
+    <div class="test-img"  ></div>
     <main class="main-ctn">
       <div class="card-ctn">
-        <picture class="card-ctn__img-ctn">
-          <source
-            media="(min-width: 375px)"
-            srcset="images/source/image-equilibrium.jpg"
-          />
-          <img
-            class="card-ctn__img-ctn__img"
-            src="images/source/image-equilibrium.jpg"
-            alt="NFT-Image"
-          />
-        </picture>
+        <img
+          class="card-ctn__img"
+          src="images/source/image-equilibrium.jpg"
+          alt="NFT-Image"
+        />
         <div class="card-ctn__info-ctn">
-          <h3 class="card-ctn__info-ctn__name">Equilibrium #3429</h3>
+          <h3 class="card-ctn__info-ctn__name --text">Equilibrium #3429</h3>
           <p class="card-ctn__info-ctn__desc-1">
-            Out Equilibrium collection promotoes balance and calm.
+            Out Equilibrium collection promotes balance and calm.
           </p>
           <div class="card-ctn__info-ctn__crypto-date-ctn">
             <div class="card-ctn__info-ctn__crypto-date-ctn__crypto-ctn">
@@ -45,21 +40,23 @@
                 src="images/source/icon-ethereum.svg"
                 alt="Icon Ethereum"
               />
-              <p class="--text">0.041 ETH</p>
+              <p class="--text-eth">0.041 ETH</p>
             </div>
             <div class="card-ctn__info-ctn__crypto-date-ctn__date-ctn">
               <img
                 class="--size"
                 src="images/source/icon-clock.svg"
                 alt="Icon Small Clock"
-              />
-              <p class="--text">3 days left</p>
+              />  
+              <p class="--text-days">3 days left</p>
             </div>
           </div>
           <hr class="--misc-1" />
           <div class="card-ctn__info-ctn__creator-ctn">
-            <img src="images/source/image-avatar.png" alt="Creator of NFT">
-            <p class="--text">Creation of <span class="--color">Jules Wyvern</span></p>
+            <img class="--size" src="images/source/image-avatar.png" alt="Creator of NFT" />
+            <p class="--color-text">
+              Creation of <span class="--color">Jules Wyvern</span>
+            </p>
           </div>
         </div>
       </div>
