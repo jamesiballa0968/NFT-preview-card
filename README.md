@@ -20,3 +20,5 @@
 
 1. hotfix!_nft_2.1_Rename-HTML-file
 
+2. hotfix!_nft_2.2_Delete-old-HTML-file
+
